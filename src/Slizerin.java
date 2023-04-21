@@ -16,6 +16,26 @@ public class Slizerin extends Hogwards {
         this.lustForPower = lustForPower;
     }
 
+    public int getCunning() {
+        return cunning;
+    }
+
+    public int getDetermination() {
+        return determination;
+    }
+
+    public int getAmbition() {
+        return ambition;
+    }
+
+    public int getResourcefulness() {
+        return resourcefulness;
+    }
+
+    public int getLustForPower() {
+        return lustForPower;
+    }
+
     public void printInfo() {
         super.printInfo();
         System.out.println(cunning + " " + determination + " " + ambition + " " + resourcefulness + " " + lustForPower);

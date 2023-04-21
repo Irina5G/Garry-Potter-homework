@@ -14,8 +14,19 @@ public class Griffindor extends Hogwards {
 
     }
 
+    public int getNobolity() {
+        return nobolity;
+    }
 
-        public void printInfo () {
+    public int getHonor() {
+        return honor;
+    }
+
+    public int getBravery() {
+        return bravery;
+    }
+
+    public void printInfo () {
             super.printInfo();
             System.out.println(nobolity + " " + honor + " " + bravery);
 
@@ -25,6 +36,7 @@ public class Griffindor extends Hogwards {
     public void printTotal () {
                              System.out.println("Griffildor:" + (this.nobolity + this.honor + this.bravery + super.getMagic() + super.getTransgression()));
     }
+
 
 
 
