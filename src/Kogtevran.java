@@ -15,6 +15,22 @@ public class Kogtevran extends Hogwards {
 
     }
 
+    public int getClever() {
+        return clever;
+    }
+
+    public int getWise() {
+        return wise;
+    }
+
+    public int getWitty() {
+        return witty;
+    }
+
+    public int getFullOfCreativity() {
+        return fullOfCreativity;
+    }
+
     public void printInfo() {
         super.printInfo();
         System.out.println(clever + " " + wise + " " + witty + " " + fullOfCreativity);

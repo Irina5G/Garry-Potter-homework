@@ -12,6 +12,18 @@ public class Puffendui extends Hogwards {
 
             }
 
+    public int getHardworking() {
+        return hardworking;
+    }
+
+    public int getLoyal() {
+        return loyal;
+    }
+
+    public int getHonest() {
+        return honest;
+    }
+
     public void printInfo () {
         super.printInfo();
         System.out.println(hardworking + " " + loyal + " " + honest);
